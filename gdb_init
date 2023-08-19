@@ -1,0 +1,6 @@
+target remote localhost:3333
+mon reset halt
+file /home/b3ll0/adi/adiflash/src/host/build/adiflash.elf
+load
+b _rst_handler
+c

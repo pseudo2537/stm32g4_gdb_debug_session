@@ -1,0 +1,7 @@
+target remote localhost:5555
+mon reset halt
+file /home/b3ll0/adi/adiflash/src/host/build/adiflash.elf
+load
+mon reset
+detach
+exit

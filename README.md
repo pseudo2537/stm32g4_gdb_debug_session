@@ -1,2 +1,2 @@
 # stm32g4_gdb_debug_session
-stm32g4 embedded debug session embedded gdb
+Create a quick gdb debugging session with auxiliary CMSIS dfp for all stm32g4 derivates
